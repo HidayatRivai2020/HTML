@@ -10,12 +10,9 @@
 - `<html>`: the root element of an HTML page
 - `<head>`: contains meta information about the HTML page
 - `<title>`: specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-- `<body>`: document's body, and is a container for all the visible contents.
+- `<body>`: document's body, and is a container for all the visible contents
 - `<h1>`: large heading
 - `<p>`: paragraph
-
-## Head
-### Meta
 
 ## Body
 ### Heading
@@ -38,3 +35,7 @@
 - `<sup>`: Superscript text
 
 ### [List](https://github.com/HidayatRivai2020/HTML/blob/main/list.html)
+- `<ol>`: list yang berurutan
+- `<ul>`: list yang tidak berurutan
+- `<li>`: tags di dalam list yang digunakan untuk membuat item
+- nested list dapat dilakukan dengan membuat list didalam list
