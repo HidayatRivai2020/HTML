@@ -68,7 +68,11 @@
 - `<caption>`: Defines a table caption
 - `<colgroup>`: Specifies a group of one or more columns in a table for formatting
 - `<col>`: Specifies column properties for each column within a `<colgroup>` element
-- `span`: attribute inside `<col>` to specifies how many column affected
 - `<thead>`: Groups the header content in a table
 - `<tbody>`: Groups the body content in a table
 - `<tfoot>`: Groups the footer content in a table
+- attributes in `<td>`:
+    - `colspan`: create a cell span over multiple columns
+    - `rowspan`: create a cell span over multiple rows
+- attributes in `<col>`:
+    - `span`: Specifies how many columns affected by col
