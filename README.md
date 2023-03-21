@@ -6,10 +6,22 @@
 - HTML elements tell the browser how to display the content
 
 ## [Basic HTML Tag](https://github.com/HidayatRivai2020/HTML/blob/main/index.html)
-- The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
-- The `<html>` element is the root element of an HTML page
-- The `<head>` element contains meta information about the HTML page
-- The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-- The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-- The `<h1>` element defines a large heading
-- The `<p>` element defines a paragraph
+- `<!DOCTYPE html>`: defines that this document is an HTML5 document
+- `<html>`: the root element of an HTML page
+- `<head>`: contains meta information about the HTML page
+- `<title>`: specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+- `<body>`: document's body, and is a container for all the visible contents.
+- `<h1>`: large heading
+- `<p>`: paragraph
+
+## [Formating Tag](https://github.com/HidayatRivai2020/HTML/blob/main/formatting.html)
+- `<b>`: Bold text
+- `<strong>`: Important text
+- `<i>`: Italic text
+- `<em>`: Emphasized text
+- `<mark>`: Marked text
+- `<small>`: Smaller text
+- `<del>`: Deleted text
+- `<ins>`: Inserted text
+- `<sub>`: Subscript text
+- `<sup>`: Superscript text
