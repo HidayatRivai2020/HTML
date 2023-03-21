@@ -14,7 +14,18 @@
 - `<h1>`: large heading
 - `<p>`: paragraph
 
-## [Formating Tag](https://github.com/HidayatRivai2020/HTML/blob/main/formatting.html)
+## Head
+### Meta
+
+## Body
+### Heading
+- Titles or subtitles that you want to display on a webpage.
+- defined with the `<h1>` to `<h6>` tags
+- Has different size
+- `<h1>` is the biggest header
+- `<h6>` is the smallest header
+
+### [Formating Tag](https://github.com/HidayatRivai2020/HTML/blob/main/formatting.html)
 - `<b>`: Bold text
 - `<strong>`: Important text
 - `<i>`: Italic text
@@ -25,3 +36,5 @@
 - `<ins>`: Inserted text
 - `<sub>`: Subscript text
 - `<sup>`: Superscript text
+
+### [List](https://github.com/HidayatRivai2020/HTML/blob/main/list.html)
