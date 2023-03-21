@@ -15,14 +15,14 @@
 - `<p>`: paragraph
 
 ## Body
-### Heading
-- Titles or subtitles that you want to display on a webpage.
+### [Heading](https://github.com/HidayatRivai2020/HTML/blob/main/heading.html)
+- titles or subtitles that you want to display on a webpage.
 - defined with the `<h1>` to `<h6>` tags
-- Has different size
+- has different size
 - `<h1>` is the biggest header
 - `<h6>` is the smallest header
 
-### [Formating Tag](https://github.com/HidayatRivai2020/HTML/blob/main/formatting.html)
+### [Formating](https://github.com/HidayatRivai2020/HTML/blob/main/formatting.html)
 - `<b>`: Bold text
 - `<strong>`: Important text
 - `<i>`: Italic text
@@ -35,11 +35,27 @@
 - `<sup>`: Superscript text
 
 ### [List](https://github.com/HidayatRivai2020/HTML/blob/main/list.html)
-- `<ol>`: list yang berurutan
-- `<ul>`: list yang tidak berurutan
-- `<li>`: tags di dalam list yang digunakan untuk membuat item
-- nested list dapat dilakukan dengan membuat list didalam list
+- `<ol>`: ordered-list
+- `<ul>`: unordered list
+- `<li>`: list item
+- nested list is a list inside of list
 
-### [Division](https://github.com/HidayatRivai2020/HTML/blob/main/division.html)
-- `<div>`: elemen untuk membagi halaman html menjadi beberapa section
-- `<span>`: elemen untuk membuat inline containers 
+### [Image](https://github.com/HidayatRivai2020/HTML/blob/main/image.html)
+- `<img>`: embed an image in a web page
+- does not have closing tag
+- has attributes:
+    - src: specificies the path to the image
+    - alt: specificies an alternate text for the image
+
+### [Links](https://github.com/HidayatRivai2020/HTML/blob/main/image.html)
+- `<a>`: anchor tag, used as hyperlinks
+- jump into another document when clicked
+- the cursor will turn into a little hand when mouse over
+- has attributes:
+    - `href`: url of destination link
+    - `target`: specifies where to open the linked document
+- attributes values:
+    - `_self`: default. open the document in the same window/tab
+    - `_blank`: open the document in a new window/tab
+    - `_parent`: open the document in parent frame
+    - `_top`: open the document in the full body of window
