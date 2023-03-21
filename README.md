@@ -39,3 +39,7 @@
 - `<ul>`: list yang tidak berurutan
 - `<li>`: tags di dalam list yang digunakan untuk membuat item
 - nested list dapat dilakukan dengan membuat list didalam list
+
+### [Division](https://github.com/HidayatRivai2020/HTML/blob/main/division.html)
+- `<div>`: elemen untuk membagi halaman html menjadi beberapa section
+- `<span>`: elemen untuk membuat inline containers 
