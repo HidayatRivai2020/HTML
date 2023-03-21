@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="another.html" method="get">
+        <input type="code" name="code" id="code">
+        <input type="text" name="name" id="name">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <br>
+    <br>
+    <form action="another.html" method="post">
+        <label for="no">no</label>
+        <input type="number" name="no" id="no">
+        <br><br>
+        <label for="name">Name</label>
+        <input type="text" id="value" name="name" placeholder="Your Name" required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" name="gender" id="male">Male
+        <br>
+        <input type="radio" name="gender" id="female">female
+        <br><br>
+        <label for="date">date</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="preferences">Preferences</label>
+        <br>
+        <input type="checkbox" name="preferences" id="preferences">Basket
+        <input type="checkbox" name="preferences" id="preferences">Football
+        <input type="checkbox" name="preferences" id="preferences">Tennis
+        <br><br>
+        <input type="text" name="read_only" id="read_only" value="read_only" readonly>
+        <br><br>
+        <p>Select One</p>
+        <select name="select" id="select">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+            <option value="4" disabled>Option 4</option>
+            <option value="5" selected>Option 5</option>
+        </select>
+        <br><br>
+        <label for="comment">Comment</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

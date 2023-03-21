@@ -8,6 +8,17 @@
 </head>
 <body>
     <img src="image.jpg" alt="local image"> <br><br>
-    <img src="im123age.jpg" alt="alternate text image">
+    <img src="im123age.jpg" alt="alternate text image"> <br><br>
+    <img src="image.jpg" alt="imagemap" usemap="#areamap">
+    <map name="areamap">
+        <area shape="rect" coords="0,0,50,50" href="image.jpg" alt="image">
+        <area shape="circle" coords="100,200,300" href="index.html" alt="image">
+    </map>
+    <br><br>
+    <picture>
+        <source media="(min-width:1000px)" srcset="image.jpg">
+        <source media="(min-width:300px)" srcset="image-2.jpg">
+        <img src="image.jpg" alt="local image" style="width: auto;">
+    </picture>
 </body>
 </html>
