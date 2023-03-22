@@ -7,59 +7,143 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="another.html" method="get">
-        <input type="code" name="code" id="code">
-        <input type="text" name="name" id="name">
-        <input type="submit" value="submit">
+    <form action="another.html" method="get" rel="" target="_blank" novalidate>
+        <fieldset>
+            <legend>Form Elements</legend>
+            <label for="name">Name</label> <br>
+            <input type="text"> <br>
+            <label for="desc">Description</label> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+            <label for="select">Selecet</label>
+            <select name="select" id="select">
+                <optgroup label="A Group">
+                    <option value="a1">A - 1 </option>
+                    <option value="a2">A - 2 </option>
+                </optgroup>
+                <optgroup label="B Group">
+                    <option value="b1">B - 1 </option>
+                    <option value="b2" selected>B - 2 </option>
+                </optgroup>
+                <optgroup label="C Group">
+                    <option value="c1">B - 1 </option>
+                    <option value="c2" disabled>B - 2 </option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label for="browser">Browser</label>
+            <input list="browser" name="browser" id="browser">
+            <datalist id="browser">
+                <option value="edge"></option>
+                <option value="firefox"></option>
+                <option value="chrome"></option>
+            </datalist>
+            <br><br>
+            <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                <input type="range" id="a" value="50">
+                +<input type="number" id="b" value="25">
+                =<output name="x" for="a b"></output>
+            </form>
+            <br><br>
+            <input type="button" value="button">
+        </fieldset>
     </form>
-    <br>
-    <br>
-    <br>
-    <form action="another.html" method="post">
-        <label for="no">no</label>
-        <input type="number" name="no" id="no">
-        <br><br>
-        <label for="name">Name</label>
-        <input type="text" id="value" name="name" placeholder="Your Name" required>
-        <br><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <br><br>
-        <label for="password">password</label>
-        <input type="password" name="password" id="password">
-        <br><br>
-        <label for="gender">Gender</label>
-        <br>
-        <input type="radio" name="gender" id="male">Male
-        <br>
-        <input type="radio" name="gender" id="female">female
-        <br><br>
-        <label for="date">date</label>
-        <br>
-        <input type="date" name="date" id="date">
-        <br><br>
-        <label for="preferences">Preferences</label>
-        <br>
-        <input type="checkbox" name="preferences" id="preferences">Basket
-        <input type="checkbox" name="preferences" id="preferences">Football
-        <input type="checkbox" name="preferences" id="preferences">Tennis
-        <br><br>
-        <input type="text" name="read_only" id="read_only" value="read_only" readonly>
-        <br><br>
-        <p>Select One</p>
-        <select name="select" id="select">
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-            <option value="4" disabled>Option 4</option>
-            <option value="5" selected>Option 5</option>
-        </select>
-        <br><br>
-        <label for="comment">Comment</label>
-        <br>
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-        <br><br>
-        <input type="submit" value="submit">
+
+    <br><br>
+    <form action="another.html">
+        <fieldset>
+            <legend>Input Type</legend>
+            button: <input type="button" value="button"> <br>br
+            checkbox: 
+            <input type="checkbox" name="checkbox" id="checkbox" value="a">a
+            <input type="checkbox" name="checkbox" id="checkbox" value="b">b
+            <input type="checkbox" name="checkbox" id="checkbox" value="c">c
+            <br>
+            color: <input type="color" name="color" id="color"> <br>
+            date: <input type="date" name="date" id="date"> <br>
+            datetime-local: <input type="datetime-local" name="datetime-local" id="datetime-local"> <br>
+            email: <input type="email" name="email" id="email"> <br>
+            file: <input type="file" name="file" id="file"> <br>
+            hidden: <input type="hidden" name="hidden"> <br>
+            image: <input type="image" src="image" alt="image"> <br>
+            month: <input type="month" name="month" id="month"> <br>
+            number: <input type="number" name="number" id="number"> <br>
+            password: <input type="password" name="password" id="password"> <br>
+            radio: 
+            <input type="radio" name="radio" id="a" value="a">a
+            <input type="radio" name="radio" id="a" value="b">b
+            <input type="radio" name="radio" id="a" value="c">c
+            <br>
+            reset: <input type="reset" value="reset"> <br>
+            search: <input type="search" name="search" id="search"> <br>
+            submit: <input type="submit" value="submit"> <br>
+            text: <input type="text" name="text" id="text"> <br>
+            tel: <input type="tel" name="tel" id="tel"> <br>
+            time: <input type="time" name="time" id="time"> <br>
+            url: <input type="url" name="url" id="url"> <br>
+            <input type="week" name="week" id="week"> <br>
+        </fieldset>
+    </form>
+
+    <br><br>
+    <form action="another.html" method="post" accept-charset="UTF-8" autocomplete="on" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Input Attribute</legend>
+            value: <input type="text" value="this is the value"> <br>
+            readonly: <input type="text" value="readonly value" readonly> <br>
+            disabled: <input type="text" value="disabled value" disabled> <br>
+            size: <input type="text" value="size" size="50"> <br>
+            max-length: <input type="text" maxlength="10"> <br>
+            min: <input type="number" min="10" max="50"> <br>
+            multiple: <input type="file" multiple><br>
+            pattern: <input type="text" pattern="{A-Z}"> <br>
+            placeholder: <input type="text" placeholder="placeholder"> <br>
+            required: <input type="text" required> <br>
+            step: <input type="number" step="3"> <br>
+            autofocus: <input type="text" autofocus> <br>
+            autocomplete: <input type="text" autocomplete="on"> <br>
+            <input list="browser" name="browser" id="browser">
+            <datalist id="browser">
+                <option value="edge"></option>
+                <option value="firefox"></option>
+                <option value="chrome"></option>
+            </datalist><br>
+        </fieldset>
+    </form>
+
+    <br><br>
+    <form action="another.html" method="get" target="_parent">
+        <fieldset>
+            <legend>parent target</legend>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="another.html" method="get" target="_self">
+        <fieldset>
+            <legend>self Target</legend>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="another.html" method="get" target="framename">
+        <fieldset>
+            <legend>framename Target</legend>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="another.html" method="get" target="_blank">
+        <fieldset>
+            <legend>blank target</legend>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <br><br>
+    <form action="another.html" method="get" target="_top">
+        <fieldset>
+            <legend>top target</legend>
+            <input type="submit" value="submit">
+        </fieldset>
     </form>
 </body>
 </html>
